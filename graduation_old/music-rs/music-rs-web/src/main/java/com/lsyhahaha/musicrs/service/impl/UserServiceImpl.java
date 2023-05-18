@@ -10,8 +10,8 @@ import com.lsyhahaha.musicrs.util.result.Result;
 import com.lsyhahaha.musicrs.util.result.ResultEnum;
 import com.lsyhahaha.musicrs.util.result.ResultUtil;
 import com.lsyhahaha.musicrs.util.timeUtil.MyTimeUtil;
-import com.zhang.musicrs.dao.*;
-import com.zhang.musicrs.entity.*;
+import com.lsyhahaha.musicrs.dao.*;
+import com.lsyhahaha.musicrs.entity.*;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

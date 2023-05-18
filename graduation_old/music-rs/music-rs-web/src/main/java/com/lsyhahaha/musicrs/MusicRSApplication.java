@@ -14,7 +14,7 @@ import java.net.UnknownHostException;
  * @author ZHANG
  */
 @SpringBootApplication
-// @EnableOpenApi
+// @EnableOpenApi、
 @Slf4j
 public class MusicRSApplication {
     public static void main(String[] args) throws UnknownHostException {
