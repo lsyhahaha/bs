@@ -2,11 +2,9 @@
 
 小型个性化音乐推荐系统在线层后台业务代码，使用Spring Boot + Mybatis搭建
 
-完整项目参考：[https://gitee.com/Zhang_Chaojie/music_recommendation](https://gitee.com/Zhang_Chaojie/music_recommendation)
-
 ### 项目环境
 
-SpringBoot 2.7.x + jdk1.8 + MySQL5.7
+SpringBoot 2.7.x + jdk1.8 + MySQL8.0
 
 ### 后端代码执行
 
