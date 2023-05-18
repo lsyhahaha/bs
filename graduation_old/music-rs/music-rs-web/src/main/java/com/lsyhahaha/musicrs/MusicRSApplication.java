@@ -10,9 +10,7 @@ import org.springframework.util.StringUtils;
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
-/**
- * @author ZHANG
- */
+
 @SpringBootApplication
 // @EnableOpenApi、
 @Slf4j

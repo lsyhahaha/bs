@@ -10,11 +10,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(用于返回音乐信息)
- * @date 2022/4/26 23:11
- */
 @RestController
 public class SongController {
     @Autowired
