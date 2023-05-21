@@ -13,7 +13,7 @@ const state = {
         area: "浙江省-杭州市",
         des: "永无BUG，永不宕机",
         gender: "男",
-        name: "北庭一梦",
+        name: "lsyhahaha",
         password: "123",
         registerTime: "2021-05-16 15:04:37",
         uid: "338663754",

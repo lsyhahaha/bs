@@ -12,7 +12,7 @@ export default defineConfig({
 		// 本项目的本地端口，默认是 3000 端口
 		port: "3000",
 		// 浏览器自动打开
-		open: true,
+		open: false,
 		/**
 		 * 配置跨域，步骤说明：
 		 * 1、配置本地主机和端口
