@@ -9,11 +9,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(Web配置)
- * @date 2022/4/24 12:42
- */
+
 
 /**
  * 拦截器利用AOP思想实现，是横切进去的。拦截器只会拦截访问的控制器方法， 如果访问的是jsp/html/css/image/js是不会进行拦截的

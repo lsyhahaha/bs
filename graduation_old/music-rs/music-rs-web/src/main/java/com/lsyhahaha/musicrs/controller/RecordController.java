@@ -12,11 +12,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(播放记录)
- * @date 2022/5/01 23:47
- */
 @RestController
 public class RecordController {
     @Autowired

@@ -1,10 +1,6 @@
 package com.lsyhahaha.musicrs.util.result;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(接口返回通用结果类)
- * @date 2021/4/26 16:17
- */
+
 public class Result<T> {
     // 是否成功，成功则值为true
     private Boolean succ;

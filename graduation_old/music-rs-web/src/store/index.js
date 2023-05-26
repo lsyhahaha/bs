@@ -14,12 +14,14 @@ const state = {
         des: "永无BUG，永不宕机",
         gender: "男",
         name: "lsyhahaha",
+        // name:"李一天和杨三岁",
         password: "123",
         registerTime: "2021-05-16 15:04:37",
-        uid: "338663754",
+        // uid: "338663754",
+        uid: "1736576617",
     },
     // user: window.sessionStorage.getItem("user"),
-    
+
     // 登录状态，0表示未登录,1表示登录
     isLogin: Number(window.sessionStorage.getItem("isLogin")),
     token: "",

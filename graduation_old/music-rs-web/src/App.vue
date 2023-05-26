@@ -4,9 +4,6 @@
 		<div>
 			<router-view />
 		</div>
-		<!-- <login />
-        <top />
-        <index /> -->
 	</div>
 </template>
 
@@ -16,9 +13,6 @@
 export default {
 	name: "app",
 	components: {
-		// login,
-		// top,
-		// index,
 	},
 }
 </script>

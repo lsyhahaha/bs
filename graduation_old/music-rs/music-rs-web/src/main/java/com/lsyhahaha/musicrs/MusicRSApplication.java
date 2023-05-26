@@ -6,7 +6,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.Environment;
 import org.springframework.util.StringUtils;
-
 import java.net.InetAddress;
 import java.net.UnknownHostException;
 
@@ -28,8 +27,7 @@ public class MusicRSApplication {
         }
         log.info("\n\t----------------------------------------------------------\n\t" +
                 "Application  is running! Access URLs:\n\t" +
-                "Local访问网址: \t\thttp://localhost:" + port + path + "\n\t" +
-                "External访问网址: \thttp://" + ip + ":" + port + path + "\n\t" +
+                "Local访问网址: \t\thttp://localhost:" + "3000" + path + "/login" + "\n\t" +
                 "----------------------------------------------------------");
     }
 }

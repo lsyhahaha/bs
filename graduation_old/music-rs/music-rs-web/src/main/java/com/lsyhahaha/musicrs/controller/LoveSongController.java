@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(歌曲收藏记录Controller)
- * @date 2022/5/02 12:14
- */
+
 @RestController
 public class LoveSongController {
     @Autowired

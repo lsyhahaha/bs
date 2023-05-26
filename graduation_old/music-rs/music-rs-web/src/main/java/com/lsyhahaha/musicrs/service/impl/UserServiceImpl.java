@@ -13,7 +13,6 @@ import com.lsyhahaha.musicrs.util.timeUtil.MyTimeUtil;
 import com.lsyhahaha.musicrs.dao.*;
 import com.lsyhahaha.musicrs.entity.*;
 import org.springframework.stereotype.Service;
-
 import javax.annotation.Resource;
 import java.util.*;
 
@@ -39,20 +38,6 @@ public class UserServiceImpl implements IUserService {
     @Resource
     private RedisUtils redisUtils;
 
-    // @Override
-    // public Result userLogin(User user) {
-    //     if (user != null) {
-    //         User res = userMapper.queryById(user.getUid());
-    //         // 判空并比较密码，这里密码实际上需要加密，类似使用PBKDF2WithHmacSHA1算法
-    //         if (res != null && res.getPassword().equals(PBKDF2.getPBKDF2(user.getPassword()))){
-    //             // 将密码隐藏，注册时间格式化
-    //             return ResultUtil.success(res.setPassword("*********").setRegisterTime(MyTimeUtil.timeFormat(res.getRegisterTime())));
-    //         } else {
-    //             return ResultUtil.fail(ResultEnum.DATA_NOT_EXIST.getCode(), user.getName() + "用户不存在");
-    //         }
-    //     }
-    //     return ResultUtil.fail(ResultEnum.DATA_NOT_EXIST.getCode(), "用户不存在");
-    // }
 
     // 使用了拦截器之后的登录处理
     @Override
@@ -174,6 +159,7 @@ public class UserServiceImpl implements IUserService {
         // 相似歌曲id集合
         List<String> iidList = Arrays.asList(topSongs.getTopSongs().trim().split(","));
         for (String tempId : iidList) {
+            System.out.println(tempId);
             SongDO song = songMapper.queryByIid(tempId);
             // 设置音乐时长
             song.setSongTime(MyTimeUtil.millSeconds2time(song.getSongTime()));
@@ -189,6 +175,7 @@ public class UserServiceImpl implements IUserService {
     public Result getRecommendUsers(String uid) {
         // 相似用户数组
         List<UserDO> userList = new ArrayList<>();
+
         // 获得相似音乐好友
         TopUsersDO topUsers = topUsersMapper.queryByUid(uid);
         if (topUsers == null) {

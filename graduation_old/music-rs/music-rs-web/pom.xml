@@ -10,8 +10,8 @@
     </parent>
 
     <artifactId>music-rs-web</artifactId>
-    <version>1.0-SNAPSHOT</version>
-    <name>music-rs-web</name>
+        <version>1.0-SNAPSHOT</version>
+        <name>music-rs-web</name>
     <description>music-web实现</description>
 
     <properties>

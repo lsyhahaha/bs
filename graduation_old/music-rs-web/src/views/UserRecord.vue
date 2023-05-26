@@ -34,6 +34,7 @@
 				播放记录
 			</span>
 		</div>
+
 		<!-- 用户歌曲播放记录 -->
 		<div id="user-record">
 			<el-table

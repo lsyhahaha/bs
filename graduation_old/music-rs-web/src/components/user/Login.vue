@@ -82,11 +82,7 @@
 import { getLogin, _register } from "../../network/request.js"
 import { ref } from "vue"
 // 导入验证
-import {
-	validateUsername as validateName,
-	validateAge,
-	validateIntroduction,
-} from "../../common/utils.js"
+import {validateUsername as validateName, validateAge, validateIntroduction,} from "../../common/utils.js"
 import { areaOptions as area } from "../../common/area-json"
 export default {
 	name: "login",
@@ -293,6 +289,7 @@ export default {
 	},
 }
 </script>
+
 
 <style scoped>
 /* // scoped表示旨在本文件内起作用，局部声明

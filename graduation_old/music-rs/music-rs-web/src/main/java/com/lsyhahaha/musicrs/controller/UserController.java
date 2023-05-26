@@ -10,11 +10,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(普通用户的Controller层代码)
- * @date 2022/4/26 20:02
- */
+
 @RestController
 public class UserController {
     // 用户服务

@@ -9,11 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(这里用一句话描述这个类的作用)
- * @date 2022/4/26 17:30
- */
+
 @RestController
 public class AdminController {
     // 这里不需要修改，不影响正常运行
