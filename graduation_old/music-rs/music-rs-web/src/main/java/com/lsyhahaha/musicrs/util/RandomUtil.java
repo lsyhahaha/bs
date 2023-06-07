@@ -1,10 +1,6 @@
 package com.lsyhahaha.musicrs.util;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(随机数生成器 )
- * @date 2021/5/17 21:34
- */
+
 public class RandomUtil {
     //  随机数生成器
     private static java.util.Random random = new java.util.Random();

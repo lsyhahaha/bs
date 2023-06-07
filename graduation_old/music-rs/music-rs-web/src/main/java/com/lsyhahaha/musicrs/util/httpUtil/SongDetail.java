@@ -7,11 +7,7 @@ import org.jsoup.Jsoup;
 
 import java.io.IOException;
 
-/**
- * @author ZhangChaojie
- * @Description: TODO(获得歌曲播放url)
- * @date 2021/5/8 14:31
- */
+
 public class SongDetail {
     /**
      * 获得歌曲的播放链接
